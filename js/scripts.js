@@ -11,11 +11,7 @@
       $('#list').append(li);
     }
 
-    //2. Crossing out an item from the list of items:
-    function crossOut() {
-      li.toggleClass("strike");
-    }
-
+    //2. double-click event listener to cross out item
     li.on("dblclick", function crossOut() {
       li.toggleClass("strike");
   });
